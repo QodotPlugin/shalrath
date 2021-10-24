@@ -7,7 +7,7 @@ use std::{fmt::Display, ops::{Deref, DerefMut}};
 /// The convex volume represented by a set of [`BrushPlane`]s.
 #[derive(Debug, Default, Clone, PartialEq, PartialOrd)]
 #[cfg_attr(feature = "serde", derive(serde::Serialize, serde::Deserialize))]
-pub struct Brush(Vec<BrushPlane>);
+pub struct Brush(pub Vec<BrushPlane>);
 
 impl Brush {
     pub fn new(entities: Vec<BrushPlane>) -> Self {

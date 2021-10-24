@@ -9,7 +9,7 @@ use crate::repr::Entity;
 /// The set of brushes inside an [`Entity`].
 #[derive(Debug, Default, Clone, PartialEq, PartialOrd)]
 #[cfg_attr(feature = "serde", derive(serde::Serialize, serde::Deserialize))]
-pub struct Brushes(Vec<Brush>);
+pub struct Brushes(pub Vec<Brush>);
 
 impl Brushes {
     pub fn new(brushes: Vec<Brush>) -> Self {

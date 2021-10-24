@@ -7,7 +7,7 @@ use std::{fmt::Display, ops::{Deref, DerefMut}};
 /// A Quake [`map`](https://www.gamers.org/dEngine/quake/QDP/qmapspec.html) containing one or more [`Entity`]s.
 #[derive(Debug, Default, Clone, PartialEq, PartialOrd)]
 #[cfg_attr(feature = "serde", derive(serde::Serialize, serde::Deserialize))]
-pub struct Map(Vec<Entity>);
+pub struct Map(pub Vec<Entity>);
 
 impl Map {
     pub fn new(entities: Vec<Entity>) -> Self {

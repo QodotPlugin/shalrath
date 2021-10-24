@@ -2,12 +2,12 @@ mod property;
 
 pub use property::*;
 
-use std::{fmt::Display, ops::Deref};
+use std::{fmt::Display, ops::{Deref, DerefMut}};
 
 /// A set of [`Property`]s.
 #[derive(Debug, Default, Clone, Eq, PartialEq, Ord, PartialOrd)]
 #[cfg_attr(feature = "serde", derive(serde::Serialize, serde::Deserialize))]
-pub struct Properties(Vec<Property>);
+pub struct Properties(pub Vec<Property>);
 
 impl Properties {
     pub fn new(properties: Vec<Property>) -> Self {
@@ -26,6 +26,12 @@ impl Deref for Properties {
 
     fn deref(&self) -> &Self::Target {
         &self.0
+    }
+}
+
+impl DerefMut for Properties {
+    fn deref_mut(&mut self) -> &mut Self::Target {
+        &mut self.0
     }
 }
 
