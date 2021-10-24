@@ -1,0 +1,17 @@
+[package]
+name = "shalrath"
+version = "0.1.0"
+authors = ["Josh Palmer <jpalmerwatkins@gmail.com>"]
+edition = "2018"
+
+[features]
+default = ["serde"]
+non_foss_tests = []
+
+[dependencies]
+nom = "7.0.0"
+
+[dependencies.serde]
+version = "1.0.130"
+features = ["derive"]
+optional = true

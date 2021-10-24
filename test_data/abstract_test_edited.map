@@ -1,0 +1,17 @@
+// Game: Qodot
+// Format: Hexen2
+// entity 0
+{
+"classname" "worldspawn"
+"wad" ""
+"_tb_textures" "textures/base;textures/pbr;textures/shaders;textures/special"
+// brush 1
+{
+( -64 64 16 ) ( -64 -64 -16 ) ( -64 64 -16 ) base/checkerboard 0 0 0 0.0625 0.0625 0
+( 64 -64 16 ) ( -64 -64 -16 ) ( -64 -64 16 ) base/checkerboard 0 0 0 0.0625 0.0625 0
+( -64 -64 -16 ) ( 64 64 -16 ) ( -64 64 -16 ) base/checkerboard 0 -0 0 0.0625 0.0625 0
+( 64 64 16 ) ( -64 -64 16 ) ( -64 64 16 ) base/checkerboard 0 -0 0 0.0625 0.0625 0
+( 64 64 -16 ) ( -64 64 16 ) ( -64 64 -16 ) base/checkerboard 0 0 0 0.0625 0.0625 0
+( 64 64 -16 ) ( 64 -64 16 ) ( 64 64 16 ) base/checkerboard 0 0 0 0.0625 0.0625 0
+}
+}

@@ -1,0 +1,19 @@
+// Game: Quake
+// Format: Standard
+// entity 0
+{
+"message" "the Slipgate Complex"
+"wad" "gfx/base.wad;../../textures/QUAKE101.WAD"
+"classname" "worldspawn"
+"sounds" "6"
+"worldtype" "2"
+// brush 0
+{
+( -0 48 -16 ) ( -0 -0 -16 ) ( -0 -0 -192 ) tech04_3 -0 80 90 -1 1
+( 32 -0 -16 ) ( 72 -0 -16 ) ( 72 -0 -192 ) tech04_3 -0 -64 90 -1 1
+( 72 48 -48 ) ( 32 48 -48 ) ( 32 -0 -48 ) tech04_3 -0 -64 90 -1 1
+( 32 -0 -0 ) ( 32 48 -0 ) ( 72 48 -0 ) tech04_3 -0 -64 90 -1 1
+( 72 48 -16 ) ( 32 48 -16 ) ( 32 48 -192 ) tech04_3 -0 -64 90 -1 1
+( 288 -0 -16 ) ( 288 48 -16 ) ( 288 48 -192 ) tech04_3 -0 80 90 -1 1
+}
+}
