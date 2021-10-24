@@ -3,6 +3,11 @@ name = "shalrath"
 version = "0.1.0"
 authors = ["Josh Palmer <jpalmerwatkins@gmail.com>"]
 edition = "2018"
+license = "MIT"
+description = "A rusty, spiky, heat-seeing Quake map parser."
+repository = "https://github.com/QodotPlugin/shalrath/"
+keywords = ["map", "quake", "geometry", "brush", "gamedev"]
+categories = ["parsing", "parser-implementations", "rendering::data-formats", "game-development"]
 
 [features]
 default = ["serde"]
