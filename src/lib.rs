@@ -43,7 +43,7 @@
 //! To that end, struct members are public in the case of named fields, and exposed via [`Deref`] for collection wrappers like [`Properties`] and [`Brushes`].
 //!
 //! ## Parsing
-//! The simplest way to parse a [`map`](https://www.gamers.org/dEngine/quake/QDP/qmapspec.html) file into AST is by way of the [`FromStr`] trait:
+//! The simplest way to parse a [`map`](https://www.gamers.org/dEngine/quake/QDP/qmapspec.html) file is by way of the [`FromStr`] trait:
 //! ```
 //! use shalrath::repr::*;
 //!
@@ -91,7 +91,7 @@
 //! ```
 //!
 //! For a lower-level alternative, the [`parser`] module contains the [`nom`] functions used by the [`FromStr`] implementations,
-//! which can be used to parse plaintext data into individual AST structs.
+//! which can be used to parse plaintext data into individual Rust structs.
 //!
 //! Of these, [`parse_map`] is the primary entrypoint, and is equivalent to `str::parse::<Map>()`:
 //! ```
@@ -113,7 +113,7 @@
 //! println!("{}", serialized_map_string);
 //! ```
 //!
-//! In addition, round-trip parsing the resulting string back into the corresponding AST is a lossless operation,
+//! In addition, round-trip parsing the resulting string back into the corresponding Rust structs is a lossless operation,
 //! and is included as a standard part of [`shalrath`](crate)'s integration tests:
 //! ```
 //! use shalrath::repr::Map;
