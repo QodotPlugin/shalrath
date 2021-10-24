@@ -2,7 +2,7 @@ mod brush;
 
 pub use brush::*;
 
-use std::{fmt::Display, ops::Deref};
+use std::{fmt::Display, ops::{Deref, DerefMut}};
 
 #[cfg(doc)]
 use crate::repr::Entity;
@@ -28,6 +28,12 @@ impl Deref for Brushes {
 
     fn deref(&self) -> &Self::Target {
         &self.0
+    }
+}
+
+impl DerefMut for Brushes {
+    fn deref_mut(&mut self) -> &mut Self::Target {
+        &mut self.0
     }
 }
 

@@ -40,7 +40,7 @@
 //! But, that's just for context, more of which can be found in the [map file spec](https://www.gamers.org/dEngine/quake/QDP/qmapspec.html).
 //!
 //! Ultimately, what you do with the Rust representation after parsing data into it is down to needs of your project.
-//! To that end, struct members are public in the case of named fields, and exposed via [`Deref`] for collection wrappers like [`Properties`] and [`Brushes`].
+//! To that end, struct members are public in the case of named fields, and exposed via [`Deref`] and [`DerefMut`] for collection wrappers like [`Properties`] and [`Brushes`].
 //!
 //! ## Parsing
 //! The simplest way to parse a [`map`](https://www.gamers.org/dEngine/quake/QDP/qmapspec.html) file is by way of the [`FromStr`] trait:

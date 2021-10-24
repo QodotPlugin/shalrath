@@ -2,7 +2,7 @@ mod entity;
 
 pub use entity::*;
 
-use std::{fmt::Display, ops::Deref};
+use std::{fmt::Display, ops::{Deref, DerefMut}};
 
 /// A Quake [`map`](https://www.gamers.org/dEngine/quake/QDP/qmapspec.html) containing one or more [`Entity`]s.
 #[derive(Debug, Default, Clone, PartialEq, PartialOrd)]
@@ -26,6 +26,12 @@ impl Deref for Map {
 
     fn deref(&self) -> &Self::Target {
         &self.0
+    }
+}
+
+impl DerefMut for Map {
+    fn deref_mut(&mut self) -> &mut Self::Target {
+        &mut self.0
     }
 }
 
