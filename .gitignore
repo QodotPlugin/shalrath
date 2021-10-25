@@ -2,6 +2,8 @@
 /target
 Cargo.lock
 
-/test_data/autosave # TrenchBroom autosave folder
-/test_data/non_foss # Closed-source test data
+# TrenchBroom autosave folder
+/test_data/autosave
+# Closed-source test data
+/test_data/non_foss
 /src/integration-tests/non_foss
