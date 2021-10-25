@@ -17,6 +17,10 @@ pub enum Extension {
         /// Face value.
         value: f32,
     },
+    Daikatana {
+        unknown: (u32, u32, u32),
+        color: (u32, u32, u32),
+    },
 }
 
 impl Default for Extension {
@@ -38,6 +42,10 @@ impl Display for Extension {
                 "{} {} {}",
                 content_flags, surface_flags, value
             )),
+            Extension::Daikatana {
+                unknown: (i, j, k),
+                color: (r, g, b),
+            } => f.write_fmt(format_args!("{} {} {} {} {} {}", i, j, k, r, g, b)),
         }
     }
 }

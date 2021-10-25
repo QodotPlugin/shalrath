@@ -71,6 +71,7 @@ test_map!(
 );
 test_map!(test_mean_pillar, "../../test_data/mean_pillar.map");
 test_map!(test_test_cylinder, "../../test_data/test_cylinder.map");
+test_map!(test_daikatana_color, "../../test_data/daikatana-color-test.map");
 test_map!(
     test_trenchbroom_test_daikatana,
     "../../test_data/trenchbroom-test-daikatana.map"

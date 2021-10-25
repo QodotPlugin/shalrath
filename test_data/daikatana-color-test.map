@@ -1,0 +1,16 @@
+// Game: Qodot
+// Format: Daikatana
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures/base"
+// brush 0
+{
+( 0 -48 0 ) ( 0 -47 0 ) ( 0 -48 1 ) base/checkerboard 7 4 10 2 0.5 0 0 0 12345 12345 12345
+( 0 -16 0 ) ( 0 -16 1 ) ( 1 -16 0 ) base/checkerboard 7 4 10 2 0.5 0 0 0 12345 12345 12345
+( 0 -48 0 ) ( 1 -48 0 ) ( 0 -47 0 ) base/checkerboard 7 4 10 2 0.5 0 0 0 12345 12345 12345
+( 16 0 16 ) ( 16 1 16 ) ( 17 0 16 ) base/checkerboard 7 4 10 2 0.5 0 0 0 12345 12345 12345
+( 16 0 16 ) ( 17 0 16 ) ( 16 0 17 ) base/checkerboard 7 4 10 2 0.5 0 0 0 12345 12345 12345
+( 16 0 16 ) ( 16 0 17 ) ( 16 1 16 ) base/checkerboard 7 4 10 2 0.5 0 0 0 12345 12345 12345
+}
+}
