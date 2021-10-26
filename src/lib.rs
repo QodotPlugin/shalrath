@@ -142,6 +142,7 @@
 //! | Standard              | Brush planes contain no extra data.                                                              |
 //! | Hexen 2               | Brush planes contain an extra numerical value whose usage is unknown.                            |
 //! | Quake 2               | Brush planes contain `content_flags` and `surface_flags` bitmasks, and a floating point `value`. |
+//! | Daikatana             | Brush planes contain three unknown values, and floating point RGB values                         |
 //!
 //! Other formats like `Quake 3` and `Daikatana` exist, but are effectively variants of the above, and will be handled transparently by the parser.
 //!
