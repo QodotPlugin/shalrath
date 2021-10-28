@@ -1,7 +1,7 @@
 use std::fmt::Display;
 
 /// A plane described by a normal and distance.
-#[derive(Debug, Default, Clone, PartialEq, PartialOrd)]
+#[derive(Debug, Default, Copy, Clone, PartialEq, PartialOrd)]
 #[cfg_attr(feature = "serde", derive(serde::Serialize, serde::Deserialize))]
 pub struct TexturePlane {
     pub x: f32,

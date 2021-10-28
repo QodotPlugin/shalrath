@@ -5,7 +5,7 @@ pub use texture_plane::*;
 use std::fmt::Display;
 
 /// Format-specific texture offset data.
-#[derive(Debug, Clone, PartialEq, PartialOrd)]
+#[derive(Debug, Copy, Clone, PartialEq, PartialOrd)]
 #[cfg_attr(feature = "serde", derive(serde::Serialize, serde::Deserialize))]
 pub enum TextureOffset {
     /// Standard format, U/V offsets along the closest world texture plane.
