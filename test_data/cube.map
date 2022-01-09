@@ -1,0 +1,17 @@
+// Game: Qodot
+// Format: Hexen2
+// entity 0
+{
+"classname" "worldspawn"
+"wad" ""
+"_tb_textures" "textures/base;textures/normal;textures/pbr;textures/shaders;textures/special"
+// brush 0
+{
+( -32 -16 -16 ) ( -32 -15 -16 ) ( -32 -16 -15 ) normal/tile0_floor_ornate 0 0 0 0.25 0.25 0
+( -16 -32 -16 ) ( -16 -32 -15 ) ( -15 -32 -16 ) normal/tile0_floor_ornate 0 0 0 0.25 0.25 0
+( -16 -16 -32 ) ( -15 -16 -32 ) ( -16 -15 -32 ) normal/tile0_floor_ornate 0 0 0 0.25 0.25 0
+( 16 16 32 ) ( 16 17 32 ) ( 17 16 32 ) normal/tile0_floor_ornate 64 64 -3.8147e-06 0.25 0.25 0
+( 16 32 32 ) ( 17 32 32 ) ( 16 32 33 ) normal/tile0_floor_ornate 0 0 0 0.25 0.25 0
+( 32 16 32 ) ( 32 16 33 ) ( 32 17 32 ) normal/tile0_floor_ornate 0 0 0 0.25 0.25 0
+}
+}

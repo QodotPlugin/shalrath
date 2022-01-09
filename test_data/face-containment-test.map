@@ -1,0 +1,26 @@
+// Game: Qodot
+// Format: Hexen2
+// entity 0
+{
+"classname" "worldspawn"
+"wad" ""
+"_tb_textures" "textures/base;textures/normal;textures/pbr;textures/shaders;textures/special"
+// brush 0
+{
+( -64 256 16 ) ( -64 256 128 ) ( -96 192 128 ) normal/metal0_doornormal_main -0 0 -0 1 1 0
+( -80 192 128 ) ( -80 192 16 ) ( -96 192 16 ) normal/metal0_doornormal_main -0 0 -0 1 1 0
+( -96 192 16 ) ( -80 192 16 ) ( -48 256 16 ) normal/metal0_doornormal_main 0 0 0 1 1 0
+( -48 256 128 ) ( -80 192 128 ) ( -96 192 128 ) normal/metal0_doornormal_main 0 0 0 1 1 0
+( -48 256 16 ) ( -48 256 128 ) ( -64 256 128 ) normal/metal0_doornormal_main -0 0 -0 1 1 0
+( -48 256 16 ) ( -80 192 16 ) ( -80 192 128 ) normal/metal0_doornormal_main 0 0 -0 1 1 0
+}
+// brush 1
+{
+( -64 256 -16 ) ( -64 256 16 ) ( -64 128 16 ) normal/metal0_doornormal_main -0 -0 -0 1 1 0
+( 64 128 16 ) ( 64 128 -16 ) ( -64 128 -16 ) normal/metal0_doornormal_main -0 -0 -0 1 1 0
+( -64 128 -16 ) ( 64 128 -16 ) ( 64 256 -16 ) normal/metal0_doornormal_main -0 -0 -0 1 1 0
+( 64 256 16 ) ( 64 128 16 ) ( -64 128 16 ) normal/metal0_doornormal_main -0 -0 -0 1 1 0
+( 64 256 -16 ) ( 64 256 16 ) ( -64 256 16 ) normal/metal0_doornormal_main -0 -0 -0 1 1 0
+( 64 256 -16 ) ( 64 128 -16 ) ( 64 128 16 ) normal/metal0_doornormal_main -0 -0 -0 1 1 0
+}
+}

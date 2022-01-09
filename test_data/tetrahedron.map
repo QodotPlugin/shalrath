@@ -1,0 +1,15 @@
+// Game: Qodot
+// Format: Hexen2
+// entity 0
+{
+"classname" "worldspawn"
+"wad" ""
+"_tb_textures" "textures/base;textures/pbr;textures/shaders;textures/special"
+// brush 0
+{
+( -24 -16 -16 ) ( 0 24 -16 ) ( 0 0 16 ) __TB_empty 0 0 0 0.25 0.25 0
+( 0 0 16 ) ( 24 -16 -16 ) ( -24 -16 -16 ) __TB_empty 0 0 0 0.25 0.25 0
+( 24 -16 -16 ) ( 0 24 -16 ) ( -24 -16 -16 ) __TB_empty 0 0 0 0.25 0.25 0
+( 0 0 16 ) ( 0 24 -16 ) ( 24 -16 -16 ) __TB_empty 0 0 0 0.25 0.25 0
+}
+}

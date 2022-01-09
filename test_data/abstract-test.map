@@ -7,12 +7,12 @@
 "_tb_textures" "textures/base;textures/pbr;textures/shaders;textures/special"
 // brush 0
 {
-( -64 64 16 ) ( -64 -64 -16 ) ( -64 64 -16 ) base/checkerboard 0 0 0 0.0625 0.0625 0
-( 64 -64 16 ) ( -64 -64 -16 ) ( -64 -64 16 ) base/checkerboard 0 0 0 0.0625 0.0625 0
-( -64 -64 -16 ) ( 64 64 -16 ) ( -64 64 -16 ) base/checkerboard 0 -0 0 0.0625 0.0625 0
-( 64 64 16 ) ( -64 -64 16 ) ( -64 64 16 ) base/checkerboard 0 -0 0 0.0625 0.0625 0
-( 64 64 -16 ) ( -64 64 16 ) ( -64 64 -16 ) base/checkerboard 0 0 0 0.0625 0.0625 0
-( 64 64 -16 ) ( 64 -64 16 ) ( 64 64 16 ) base/checkerboard 0 0 0 0.0625 0.0625 0
+( -64 64 -16 ) ( -64 64 16 ) ( -64 -64 16 ) base/checkerboard 0 0 0 0.0625 0.0625 0
+( 64 -64 16 ) ( 64 -64 -16 ) ( -64 -64 -16 ) base/checkerboard 0 0 0 0.0625 0.0625 0
+( -64 -64 -16 ) ( 64 -64 -16 ) ( 64 64 -16 ) base/checkerboard 0 -0 0 0.0625 0.0625 0
+( 64 64 16 ) ( 64 -64 16 ) ( -64 -64 16 ) base/checkerboard 0 -0 0 0.0625 0.0625 0
+( 64 64 -16 ) ( 64 64 16 ) ( -64 64 16 ) base/checkerboard 0 0 0 0.0625 0.0625 0
+( 64 64 -16 ) ( 64 -64 -16 ) ( 64 -64 16 ) base/checkerboard 0 0 0 0.0625 0.0625 0
 }
 // brush 1
 {
@@ -52,20 +52,20 @@
 }
 // brush 5
 {
-( -64 256 128 ) ( -96 192 128 ) ( -96 192 16 ) base/uv_test -0 0 -0 0.0625 0.0625 0
+( -64 256 16 ) ( -64 256 128 ) ( -96 192 128 ) base/uv_test -0 0 -0 0.0625 0.0625 0
 ( -80 192 128 ) ( -80 192 16 ) ( -96 192 16 ) base/uv_test -0 0 -0 0.0625 0.0625 0
-( -96 192 16 ) ( -80 192 16 ) ( -48 256 16 ) base/uv_test 0 0 0 0.0625 0.0625 0
+( -96 192 0 ) ( -80 192 0 ) ( -48 256 0 ) base/uv_test 0 0 0 0.0625 0.0625 0
 ( -48 256 128 ) ( -80 192 128 ) ( -96 192 128 ) base/uv_test 0 0 0 0.0625 0.0625 0
 ( -48 256 16 ) ( -48 256 128 ) ( -64 256 128 ) base/uv_test -0 0 -0 0.0625 0.0625 0
 ( -48 256 16 ) ( -80 192 16 ) ( -80 192 128 ) base/uv_test 0 0 -0 0.0625 0.0625 0
 }
 // brush 6
 {
-( -64 352 79 ) ( -64 256 79 ) ( -48 256 47 ) base/uv_test 0 0 0 0.0625 0.0625 0
-( -48 256 95 ) ( -64 256 79 ) ( -64 352 79 ) base/uv_test 0 -0 0 0.0625 0.0625 0
-( -48 256 47 ) ( -64 256 79 ) ( -48 256 95 ) base/uv_test -0 0 -0 0.0625 0.0625 0
-( -48 352 95 ) ( -64 352 79 ) ( -48 352 47 ) base/uv_test -0 0 -0 0.0625 0.0625 0
-( -48 352 47 ) ( -48 256 47 ) ( -48 256 95 ) base/uv_test 0 0 0 0.0625 0.0625 0
+( -64 352 80 ) ( -64 256 80 ) ( -48 256 48 ) base/uv_test 0 0 0 0.0625 0.0625 0
+( -48 256 96 ) ( -64 256 80 ) ( -64 352 80 ) base/uv_test 0 0 0 0.0625 0.0625 0
+( -48 256 48 ) ( -64 256 80 ) ( -48 256 96 ) base/uv_test 0 0 0 0.0625 0.0625 0
+( -48 352 96 ) ( -64 352 80 ) ( -48 352 48 ) base/uv_test 0 0 0 0.0625 0.0625 0
+( -48 352 48 ) ( -48 256 48 ) ( -48 256 96 ) base/uv_test 0 0 0 0.0625 0.0625 0
 }
 // brush 7
 {
@@ -88,30 +88,57 @@
 }
 // brush 8
 {
-( -64 128 -16 ) ( -64 129 -16 ) ( -64 128 -15 ) base/checkerboard -0 -0 -0 0.0625 0.0625 0
-( -64 128 -16 ) ( -64 128 -15 ) ( -63 128 -16 ) base/checkerboard -0 -0 -0 0.0625 0.0625 0
-( -64 128 -16 ) ( -63 128 -16 ) ( -64 129 -16 ) base/checkerboard -0 -0 -0 0.0625 0.0625 0
-( 64 256 16 ) ( 64 257 16 ) ( 65 256 16 ) base/checkerboard -0 -0 -0 0.0625 0.0625 0
-( 64 256 16 ) ( 65 256 16 ) ( 64 256 17 ) base/checkerboard -0 -0 -0 0.0625 0.0625 0
-( 64 256 16 ) ( 64 256 17 ) ( 64 257 16 ) base/checkerboard -0 -0 -0 0.0625 0.0625 0
+( -64 256 -16 ) ( -64 256 16 ) ( -64 128 16 ) base/checkerboard -0 -0 -0 0.0625 0.0625 0
+( 64 128 16 ) ( 64 128 -16 ) ( -64 128 -16 ) base/checkerboard -0 -0 -0 0.0625 0.0625 0
+( -64 128 -16 ) ( 64 128 -16 ) ( 64 256 -16 ) base/checkerboard -0 -0 -0 0.0625 0.0625 0
+( 64 256 16 ) ( 64 128 16 ) ( -64 128 16 ) base/checkerboard -0 -0 -0 0.0625 0.0625 0
+( 64 256 -16 ) ( 64 256 16 ) ( -64 256 16 ) base/checkerboard -0 -0 -0 0.0625 0.0625 0
+( 64 256 -16 ) ( 64 128 -16 ) ( 64 128 16 ) base/checkerboard -0 -0 -0 0.0625 0.0625 0
 }
 // brush 9
 {
-( -16 -0 57 ) ( -16 23 80 ) ( -16 -0 103 ) base/uv_test_512 -0 0 -0 0.0625 0.0625 0
-( -16 -23 80 ) ( 16 -23 80 ) ( 16 -0 57 ) base/uv_test_512 -0 -2.98065 -0 0.0625 0.0625 0
-( 16 -0 103 ) ( 16 -23 80 ) ( -16 -23 80 ) base/uv_test_512 -0 -0 -0 0.0625 0.0625 0
-( 16 -0 57 ) ( 16 23 80 ) ( -16 23 80 ) base/uv_test_512 -0 -0 -0 0.0625 0.0625 0
-( 16 23 80 ) ( 16 -0 103 ) ( -16 -0 103 ) base/uv_test_512 -0 -0 -0 0.0625 0.0625 0
-( 16 -0 57 ) ( 16 -23 80 ) ( 16 -0 103 ) base/uv_test_512 256 0 -0 0.0625 0.0625 0
+( -16 0 57 ) ( -16 23 80 ) ( -16 0 103 ) base/uv_test_512 -0 0 -0 0.0625 0.0625 0
+( -16 -23 80 ) ( 16 -23 80 ) ( 16 0 57 ) base/uv_test_512 -0 -2.98065 -0 0.0625 0.0625 0
+( 16 0 103 ) ( 16 -23 80 ) ( -16 -23 80 ) base/uv_test_512 -0 -0 -0 0.0625 0.0625 0
+( 16 0 57 ) ( 16 23 80 ) ( -16 23 80 ) base/uv_test_512 -0 -0 -0 0.0625 0.0625 0
+( 16 23 80 ) ( 16 0 103 ) ( -16 0 103 ) base/uv_test_512 -0 -0 -0 0.0625 0.0625 0
+( 16 0 57 ) ( 16 -23 80 ) ( 16 0 103 ) base/uv_test_512 256 0 -0 0.0625 0.0625 0
 }
 // brush 10
 {
 ( -64 128 -16 ) ( -64 128 16 ) ( -64 64 16 ) base/checkerboard -0 -0 -0 0.0625 0.0625 0
-( 64 64 -16 ) ( -64 64 -16 ) ( -64 64 16 ) base/checkerboard -0 -0 -0 0.0625 0.0625 0
-( 64 128 -16 ) ( -64 128 -16 ) ( -64 64 -16 ) base/checkerboard -0 -0 -0 0.0625 0.0625 0
-( -64 64 16 ) ( -64 128 16 ) ( 64 128 16 ) base/checkerboard -0 -0 -0 0.0625 0.0625 0
-( 64 128 16 ) ( -64 128 16 ) ( -64 128 -16 ) base/checkerboard -0 -0 -0 0.0625 0.0625 0
+( 64 64 16 ) ( 64 64 -16 ) ( -64 64 -16 ) base/checkerboard -0 -0 -0 0.0625 0.0625 0
+( -64 64 -16 ) ( 64 64 -16 ) ( 64 128 -16 ) base/checkerboard -0 -0 -0 0.0625 0.0625 0
+( 64 128 16 ) ( 64 64 16 ) ( -64 64 16 ) base/checkerboard -0 -0 -0 0.0625 0.0625 0
+( 64 128 -16 ) ( 64 128 16 ) ( -64 128 16 ) base/checkerboard -0 -0 -0 0.0625 0.0625 0
 ( 64 128 -16 ) ( 64 64 -16 ) ( 64 64 16 ) base/checkerboard -0 -0 -0 0.0625 0.0625 0
+}
+// brush 11
+{
+( 48 -32 0 ) ( 48 -48 0 ) ( 48 -48 -16 ) __TB_empty 0 0 180 0.0625 0.0625 0
+( 144 48 -16 ) ( 144 48 0 ) ( 48 -32 0 ) __TB_empty -0.41748 -0.351318 270 0.0625 0.0642361 0
+( 48 -48 -16 ) ( 144 32 -16 ) ( 144 48 -16 ) __TB_empty -0.432373 -0.101562 270 0.0625 0.0669311 0
+( 144 48 0 ) ( 144 32 0 ) ( 48 -48 0 ) __TB_empty -0.51355 -0.63623 270 0.0625 0.0669311 0
+( 144 32 0 ) ( 144 32 -16 ) ( 48 -48 -16 ) __TB_empty -0.125977 -0.64856 270 0.0625 0.0642361 0
+( 144 48 -16 ) ( 144 32 -16 ) ( 144 32 0 ) __TB_empty 0 0 180 0.0625 0.0625 0
+}
+// brush 12
+{
+( 48 48 -16 ) ( 48 48 0 ) ( 48 32 0 ) __TB_empty 0 0 0 0.0625 0.0625 0
+( 144 -48 0 ) ( 144 -48 -16 ) ( 48 32 -16 ) __TB_empty 0.58252 -0.351318 90 0.0625 -0.0642361 0
+( 48 32 -16 ) ( 144 -48 -16 ) ( 144 -32 -16 ) __TB_empty 0.48645 -0.636353 90 0.0625 -0.0669311 0
+( 144 -32 0 ) ( 144 -48 0 ) ( 48 32 0 ) __TB_empty 0.567627 -0.101562 90 0.0625 -0.0669311 0
+( 144 -32 -16 ) ( 144 -32 0 ) ( 48 48 0 ) __TB_empty 0.874023 -0.648438 90 0.0625 -0.0642361 0
+( 144 -32 -16 ) ( 144 -48 -16 ) ( 144 -48 0 ) __TB_empty 0 0 0 0.0625 0.0625 0
+}
+// brush 13
+{
+( 128 64 -16 ) ( 128 64 16 ) ( 128 -64 16 ) base/checkerboard 0 0 0 0.0625 0.0625 0
+( 256 -64 16 ) ( 256 -64 -16 ) ( 128 -64 -16 ) base/checkerboard 0 0 0 0.0625 0.0625 0
+( 128 -64 -16 ) ( 256 -64 -16 ) ( 256 64 -16 ) base/checkerboard 0 0 0 0.0625 0.0625 0
+( 256 64 16 ) ( 256 -64 16 ) ( 128 -64 16 ) base/checkerboard 0 0 0 0.0625 0.0625 0
+( 256 64 -16 ) ( 256 64 16 ) ( 128 64 16 ) base/checkerboard 0 0 0 0.0625 0.0625 0
+( 256 64 -16 ) ( 256 -64 -16 ) ( 256 -64 16 ) base/checkerboard 0 0 0 0.0625 0.0625 0
 }
 }
 // entity 1
@@ -119,17 +146,199 @@
 "classname" "trigger"
 // brush 0
 {
-( -64 256 64 ) ( -64 176 64 ) ( -64 176 16 ) __TB_empty -0 -0 0 1 1 0
-( 64 144 64 ) ( 64 144 16 ) ( 16 144 16 ) __TB_empty -0 -0 0 1 1 0
-( 16 176 16 ) ( 64 176 16 ) ( 64 256 16 ) __TB_empty 0 0 0 1 1 0
-( 64 256 80 ) ( 64 176 80 ) ( 16 176 80 ) __TB_empty 0 0 0 1 1 0
-( 64 256 16 ) ( 64 256 64 ) ( 16 256 64 ) __TB_empty -0 -0 0 1 1 0
-( 64 256 16 ) ( 64 176 16 ) ( 64 176 64 ) __TB_empty -0 -0 0 1 1 0
+( -64 256 16 ) ( -64 256 80 ) ( -64 144 80 ) __TB_empty -0 -0 0 1 1 0
+( 64 144 80 ) ( 64 144 16 ) ( -64 144 16 ) __TB_empty -0 -0 0 1 1 0
+( -64 144 16 ) ( 64 144 16 ) ( 64 256 16 ) __TB_empty 0 0 0 1 1 0
+( 64 256 80 ) ( 64 144 80 ) ( -64 144 80 ) __TB_empty 0 0 0 1 1 0
+( 64 256 16 ) ( 64 256 80 ) ( -64 256 80 ) __TB_empty -0 -0 0 1 1 0
+( 64 256 16 ) ( 64 144 16 ) ( 64 144 80 ) __TB_empty -0 -0 0 1 1 0
 }
 }
 // entity 2
 {
-"classname" "example_player_start"
-"origin" "-8 104 32"
-"angle" "315"
+"classname" "player_start"
+"origin" "0 96 72"
+"angle" "-90"
+}
+// entity 3
+{
+"classname" "func_group"
+"_tb_type" "_tb_layer"
+"_tb_name" "Physics Cubes"
+"_tb_id" "5"
+}
+// entity 4
+{
+"classname" "physics_cube"
+"origin" "13 -12 80"
+"mangle" "0 -42 90"
+"_tb_layer" "5"
+}
+// entity 5
+{
+"classname" "physics_cube"
+"origin" "16 0 80"
+"mangle" "0 0 0"
+"_tb_layer" "5"
+}
+// entity 6
+{
+"classname" "physics_cube"
+"origin" "13 13 80"
+"mangle" "0 42 0"
+"_tb_layer" "5"
+}
+// entity 7
+{
+"classname" "physics_cube"
+"origin" "-7 16 80"
+"mangle" "0 112 -90"
+"_tb_layer" "5"
+}
+// entity 8
+{
+"classname" "physics_cube"
+"origin" "0 24 80"
+"mangle" "0 90 -90"
+"_tb_layer" "5"
+}
+// entity 9
+{
+"classname" "physics_cube"
+"origin" "-13 13 80"
+"mangle" "0 138 -90"
+"_tb_layer" "5"
+}
+// entity 10
+{
+"classname" "physics_cube"
+"origin" "7 16 80"
+"mangle" "0 68 0"
+"_tb_layer" "5"
+}
+// entity 11
+{
+"classname" "physics_cube"
+"origin" "-13 -12 80"
+"mangle" "0 -138 90"
+"_tb_layer" "5"
+}
+// entity 12
+{
+"classname" "physics_cube"
+"origin" "-16 0 80"
+"mangle" "0 180 180"
+"_tb_layer" "5"
+}
+// entity 13
+{
+"classname" "physics_cube"
+"origin" "-7 -16 80"
+"mangle" "0 -112 90"
+"_tb_layer" "5"
+}
+// entity 14
+{
+"classname" "physics_cube"
+"origin" "0 -24 80"
+"mangle" "0 -90 90"
+"_tb_layer" "5"
+}
+// entity 15
+{
+"classname" "physics_cube"
+"origin" "7 -16 80"
+"mangle" "0 -68 90"
+"_tb_layer" "5"
+}
+// entity 16
+{
+"classname" "func_group"
+"_tb_type" "_tb_layer"
+"_tb_name" "Physics Tetrahedrons"
+"_tb_id" "6"
+}
+// entity 17
+{
+"classname" "physics_tetrahedron"
+"origin" "0 0 40"
+"mangle" "90 0 0"
+"_tb_layer" "6"
+}
+// entity 18
+{
+"classname" "physics_tetrahedron"
+"origin" "0 40 80"
+"mangle" "0 90 0"
+"_tb_layer" "6"
+}
+// entity 19
+{
+"classname" "physics_tetrahedron"
+"origin" "0 16 112"
+"mangle" "-60 90 0"
+"_tb_layer" "6"
+}
+// entity 20
+{
+"classname" "physics_tetrahedron"
+"origin" "0 16 48"
+"mangle" "60 90 90"
+"_tb_layer" "6"
+}
+// entity 21
+{
+"classname" "physics_tetrahedron"
+"origin" "0 -32 64"
+"mangle" "30 -90 0"
+"_tb_layer" "6"
+}
+// entity 22
+{
+"classname" "physics_tetrahedron"
+"origin" "0 -40 80"
+"mangle" "0 -90 0"
+"_tb_layer" "6"
+}
+// entity 23
+{
+"classname" "physics_tetrahedron"
+"origin" "0 -16 48"
+"mangle" "60 -90 0"
+"_tb_layer" "6"
+}
+// entity 24
+{
+"classname" "physics_tetrahedron"
+"origin" "0 0 120"
+"mangle" "-90 0 0"
+"_tb_layer" "6"
+}
+// entity 25
+{
+"classname" "physics_tetrahedron"
+"origin" "0 32 64"
+"mangle" "30 90 90"
+"_tb_layer" "6"
+}
+// entity 26
+{
+"classname" "physics_tetrahedron"
+"origin" "0 -32 96"
+"mangle" "-30 -90 0"
+"_tb_layer" "6"
+}
+// entity 27
+{
+"classname" "physics_tetrahedron"
+"origin" "0 -16 112"
+"mangle" "-60 -90 0"
+"_tb_layer" "6"
+}
+// entity 28
+{
+"classname" "physics_tetrahedron"
+"origin" "0 32 96"
+"mangle" "-30 90 0"
+"_tb_layer" "6"
 }

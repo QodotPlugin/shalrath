@@ -59,7 +59,7 @@ test_map!(
 test_map!(test_abstract_test_a, "../../test_data/abstract_test.map");
 test_map!(test_abstract_test_b, "../../test_data/abstract-test.map");
 test_map!(test_bevel, "../../test_data/Bevel.map");
-test_map!(test_lighting_test, "../../test_data/lighting_test.MAP");
+test_map!(test_lighting_test, "../../test_data/lighting_test.map");
 test_map!(
     test_mean_block_single,
     "../../test_data/mean_block_single.map"

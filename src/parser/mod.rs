@@ -80,6 +80,7 @@ mod tests {
     fn test_string() {
         assert_eq!(parse_string("\"Foo\""), Ok(("", "Foo")));
         assert_eq!(parse_string("'Foo'"), Ok(("", "Foo")));
+        assert_eq!(parse_string("\"Antigen\nText\nRendering\nTest\n1234...? 5678! 9, 0.\""), Ok(("", "Antigen\nText\nRendering\nTest\n1234...? 5678! 9, 0.")));
     }
 
     #[test]
