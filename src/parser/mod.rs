@@ -47,7 +47,7 @@ pub fn parse_float(input: &str) -> IResult<&str, &str> {
 
 /// Parse a quoted string literal into string slice: `"Foo"` becomes an `&str` containing `Foo`.
 pub fn parse_string(input: &str) -> IResult<&str, &str> {
-    let esc = escaped(none_of("\\\"\'"), '\\', one_of("\"\'"));
+    let esc = escaped(none_of("\"\'"), '\\', one_of("\"\'"));
     let esc_or_empty = alt((esc, tag("")));
     let res = delimited(one_of("\"\'"), esc_or_empty, one_of("\"\'"))(input)?;
 
