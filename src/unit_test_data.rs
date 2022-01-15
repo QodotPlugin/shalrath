@@ -1,6 +1,6 @@
 use crate::repr::{
     Brush, BrushPlane, Brushes, Entity, Extension, Map, Point, Properties, Property, TextureOffset,
-    TexturePlane, Triangle,
+    TexturePlane, TrianglePlane,
 };
 
 pub fn test_point_in() -> &'static str {
@@ -19,8 +19,8 @@ pub fn test_plane_in() -> &'static str {
     "( -16 -16 -16 ) ( -16 -15 -16 ) ( -16 -16 -15 )"
 }
 
-pub fn test_plane_out() -> Triangle {
-    Triangle {
+pub fn test_plane_out() -> TrianglePlane {
+    TrianglePlane {
         v0: Point {
             x: -16.0,
             y: -16.0,

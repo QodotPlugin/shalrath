@@ -12,7 +12,7 @@ pub use texture_offset::*;
 #[derive(Debug, Default, Clone, PartialEq, PartialOrd)]
 #[cfg_attr(feature = "serde", derive(serde::Serialize, serde::Deserialize))]
 pub struct BrushPlane {
-    pub plane: Triangle,
+    pub plane: TrianglePlane,
     pub texture: String,
     pub texture_offset: TextureOffset,
     pub angle: f32,

@@ -11,9 +11,9 @@ use nom::{
     Finish, IResult,
 };
 
-use crate::repr::Triangle;
+use crate::repr::TrianglePlane;
 
-impl FromStr for Triangle {
+impl FromStr for TrianglePlane {
     type Err = Error<String>;
 
     fn from_str(s: &str) -> Result<Self, Self::Err> {
@@ -28,14 +28,14 @@ impl FromStr for Triangle {
 }
 
 /// Parse a [`Triangle`] from `&str`.
-pub fn parse_triangle(input: &str) -> IResult<&str, Triangle> {
+pub fn parse_triangle(input: &str) -> IResult<&str, TrianglePlane> {
     let (i, (v0, v1, v2)) = tuple((
         terminated(parse_point, space1),
         parse_point,
         preceded(space1, parse_point),
     ))(input)?;
 
-    Ok((i, Triangle { v0, v1, v2 }))
+    Ok((i, TrianglePlane { v0, v1, v2 }))
 }
 
 #[cfg(test)]

@@ -1,7 +1,7 @@
 use crate::{
     repr::{
         Brush, BrushPlane, Brushes, Entity, Extension, Map, Point, Properties, Property,
-        TextureOffset, Triangle,
+        TextureOffset, TrianglePlane,
     },
     test_map,
 };
@@ -20,7 +20,7 @@ fn basic_box_map() -> Map {
         }]),
         brushes: Brushes::new(vec![Brush::new(vec![
             BrushPlane {
-                plane: Triangle {
+                plane: TrianglePlane {
                     v0: Point {
                         x: -64.0,
                         y: -64.0,
@@ -45,7 +45,7 @@ fn basic_box_map() -> Map {
                 extension: Extension::Standard,
             },
             BrushPlane {
-                plane: Triangle {
+                plane: TrianglePlane {
                     v0: Point {
                         x: -64.0,
                         y: -64.0,
@@ -70,7 +70,7 @@ fn basic_box_map() -> Map {
                 extension: Extension::Standard,
             },
             BrushPlane {
-                plane: Triangle {
+                plane: TrianglePlane {
                     v0: Point {
                         x: -64.0,
                         y: -64.0,
@@ -95,7 +95,7 @@ fn basic_box_map() -> Map {
                 extension: Extension::Standard,
             },
             BrushPlane {
-                plane: Triangle {
+                plane: TrianglePlane {
                     v0: Point {
                         x: 64.0,
                         y: 64.0,
@@ -120,7 +120,7 @@ fn basic_box_map() -> Map {
                 extension: Extension::Standard,
             },
             BrushPlane {
-                plane: Triangle {
+                plane: TrianglePlane {
                     v0: Point {
                         x: 64.0,
                         y: 64.0,
@@ -145,7 +145,7 @@ fn basic_box_map() -> Map {
                 extension: Extension::Standard,
             },
             BrushPlane {
-                plane: Triangle {
+                plane: TrianglePlane {
                     v0: Point {
                         x: 64.0,
                         y: 64.0,

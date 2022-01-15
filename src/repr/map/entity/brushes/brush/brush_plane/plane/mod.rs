@@ -7,13 +7,13 @@ use std::fmt::Display;
 /// A plane described by three [`Point`]s.
 #[derive(Debug, Default, Copy, Clone, PartialEq, PartialOrd)]
 #[cfg_attr(feature = "serde", derive(serde::Serialize, serde::Deserialize))]
-pub struct Triangle {
+pub struct TrianglePlane {
     pub v0: Point,
     pub v1: Point,
     pub v2: Point,
 }
 
-impl Display for Triangle {
+impl Display for TrianglePlane {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         f.write_fmt(format_args!("{} {} {}", self.v0, self.v1, self.v2))
     }
