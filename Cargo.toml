@@ -1,6 +1,6 @@
 [package]
 name = "shalrath"
-version = "0.2.5"
+version = "0.2.6"
 authors = ["Josh Palmer <jpalmerwatkins@gmail.com>"]
 edition = "2021"
 license = "MIT OR Apache-2.0"
