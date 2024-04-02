@@ -1,7 +1,9 @@
-# Shalrath &emsp; [![License]][mit] [![Latest Version]][crates.io] [![Documentation]][docs.rs]
+# Shalrath &emsp; [![LicenseMIT]][mit] ![LicenseApache][apache] [![Latest Version]][crates.io] [![Documentation]][docs.rs]
 
-[License]: https://img.shields.io/badge/license-MIT-blue.svg
-[mit]: LICENSE
+[LicenseMIT]: https://img.shields.io/badge/license-MIT-blue.svg
+[LicenseApache]: https://img.shields.io/badge/license-Apache-blue.svg
+[mit]: LICENSE-MIT
+[apache]: LICENSE-APACHE
 
 [Latest Version]: https://img.shields.io/crates/v/shalrath.svg
 [crates.io]: https://crates.io/crates/shalrath
