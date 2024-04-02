@@ -2,8 +2,8 @@
 name = "shalrath"
 version = "0.2.5"
 authors = ["Josh Palmer <jpalmerwatkins@gmail.com>"]
-edition = "2018"
-license = "MIT"
+edition = "2021"
+license = "MIT OR Apache-2.0"
 description = "A rusty, spiky, heat-seeing Quake map parser."
 repository = "https://github.com/QodotPlugin/shalrath/"
 keywords = ["map", "quake", "geometry", "brushes", "gamedev"]
@@ -14,9 +14,9 @@ default = ["serde"]
 non_foss_tests = []
 
 [dependencies]
-nom = "7.0.0"
+nom = "7.1.3"
 
 [dependencies.serde]
-version = "1.0.130"
+version = "1.0.197"
 features = ["derive"]
 optional = true
